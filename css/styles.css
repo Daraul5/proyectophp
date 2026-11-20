@@ -1,0 +1,371 @@
+/* ==========================================================================
+   MINI PROYECTO 1 - UNIDAD 4: PROGRAMACIÓN WEB CON PHP
+   Estilo CSS Básico y Minimalista (Estilo HTML tradicional / académico)
+   Integrantes: David Raúl Vázquez Yáñez | Rebeca Jiménez Díaz | Elías Raziel Gómez Carrión
+   ========================================================================== */
+
+/* --- 1. Estilos Generales Básicos --- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+/* Enlaces por defecto */
+a {
+    color: #0044cc;
+}
+
+/* --- 2. Barra de Sesión (Caja informativa superior) --- */
+.session-bar {
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+.session-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.session-info-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.session-badge-item {
+    background: #e9e9e9;
+    border: 1px solid #ccc;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+.session-pulse-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #28a745;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.btn-restart-session {
+    background-color: #cc0000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.85em;
+    display: inline-block;
+}
+
+.btn-restart-session:hover {
+    background-color: #990000;
+}
+
+/* --- 3. Encabezado y Menú --- */
+.main-header {
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.header-branding {
+    margin-bottom: 15px;
+}
+
+.header-branding h1 {
+    font-size: 1.5em;
+    margin: 0 0 5px 0;
+    color: #111;
+}
+
+.header-branding p {
+    margin: 0;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    padding: 8px 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.nav-link:hover {
+    background-color: #eee;
+    border-color: #ccc;
+}
+
+.nav-link.active {
+    background-color: #e2e2e2;
+    border-color: #999;
+    font-weight: bold;
+    color: #000;
+}
+
+/* --- 4. Contenido y Secciones (Cards Simples) --- */
+.page-header {
+    margin-bottom: 20px;
+}
+
+.page-header h2 {
+    font-size: 1.4em;
+    margin: 0 0 5px 0;
+}
+
+.page-header p {
+    color: #555;
+    margin: 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.card-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.15em;
+}
+
+.evidence-badge {
+    background-color: #eef;
+    border: 1px solid #99c;
+    color: #003399;
+    padding: 2px 6px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.concept-box {
+    background-color: #ffffff;
+    border-left: 4px solid #666;
+    border: 1px solid #ddd;
+    border-left-width: 4px;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+}
+
+.concept-box h3 {
+    margin: 0 0 6px 0;
+    font-size: 1em;
+}
+
+/* --- 5. Tablas Tradicionales --- */
+.table-responsive {
+    overflow-x: auto;
+    margin: 12px 0;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    font-size: 0.9em;
+}
+
+.data-table th, 
+.data-table td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #eaeaea;
+    color: #111;
+}
+
+/* Etiquetas / Badges de Estado Básicos */
+.status-badge {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    border: 1px solid #bbb;
+}
+
+.status-success {
+    background-color: #e6f4ea;
+    color: #137333;
+    border-color: #a8dab5;
+}
+
+.status-warning {
+    background-color: #fef7e0;
+    color: #b06000;
+    border-color: #f7cb73;
+}
+
+.status-danger {
+    background-color: #fce8e6;
+    color: #c5221f;
+    border-color: #f29995;
+}
+
+.status-info {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    border-color: #aecbfa;
+}
+
+/* Salida de Código y Mensajes */
+.code-output {
+    background-color: #222;
+    color: #f1f1f1;
+    font-family: Consolas, monospace;
+    padding: 10px;
+    border-radius: 3px;
+    overflow-x: auto;
+    font-size: 0.85em;
+}
+
+.alert-box {
+    padding: 10px 12px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.alert-success {
+    background-color: #e6f4ea;
+    border-color: #a8dab5;
+    color: #137333;
+}
+
+/* Tarjetas simples en el Inicio */
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.feature-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.feature-card h4 {
+    margin: 0 0 8px 0;
+}
+
+.feature-card p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.btn-card {
+    display: inline-block;
+    background: #e2e2e2;
+    color: #000;
+    border: 1px solid #bbb;
+    padding: 4px 8px;
+    text-decoration: none;
+    font-size: 0.85em;
+    border-radius: 3px;
+}
+
+.btn-card:hover {
+    background: #ccc;
+}
+
+/* --- 6. Pie de Página --- */
+.main-footer {
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.85em;
+    color: #555;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+.team-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* ==========================================================================
+   7. SECCIÓN PARA COMMITS DEL EQUIPO (REBECA Y ELÍAS)
+   ==========================================================================
+   El CSS actual es intencionalmente básico para que Rebeca y Elías tengan
+   mucho margen para comitear mejoras de diseño a GitHub:
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   TODO [Rebeca Jiménez Díaz]:
+   - Agregar paleta de colores personalizada o modo oscuro.
+   - Mejorar el diseño de las tarjetas (.card o .feature-card con box-shadow).
+   - Agregar transiciones suaves o estilos visuales para los botones.
+   -------------------------------------------------------------------------- */
+.card-rebeca-custom {
+    /* Escribe aquí tus estilos para tu commit */
+}
+
+/* --------------------------------------------------------------------------
+   TODO [Elías Raziel Gómez Carrión]:
+   - Agregar colores alternados a las filas de las tablas (zebra-striping).
+   - Mejorar el diseño del menú superior (.main-nav) y sus estados :hover.
+   - Afinar media-queries para pantallas móviles muy pequeñas.
+   -------------------------------------------------------------------------- */
+.data-table-elias-custom {
+    /* Escribe aquí tus estilos para tu commit */
+}
