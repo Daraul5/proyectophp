@@ -4,6 +4,35 @@
    Integrantes: David Raúl Vázquez Yáñez | Rebeca Jiménez Díaz | Elías Raziel Gómez Carrión
    ========================================================================== */
 
+/* --- 0. Paleta de Colores y Variables CSS (:root) --- */
+:root {
+    --bg-page: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-subtle: #f1f5f9;
+    --bg-muted: #e2e8f0;
+    --text-main: #1e293b;
+    --text-muted: #475569;
+    --text-heading: #0f172a;
+    --border-color: #cbd5e1;
+    --border-strong: #94a3b8;
+
+    /* Colores de acento y estado */
+    --accent-primary: #2563eb;
+    --accent-primary-hover: #1d4ed8;
+    --accent-secondary: #0d9488;
+    --accent-purple: #7c3aed;
+    --danger-color: #dc2626;
+    --danger-hover: #b91c1c;
+    --success-color: #16a34a;
+
+    /* Sombras y transiciones */
+    --shadow-sm: 0 2px 6px rgba(15, 23, 42, 0.06);
+    --shadow-md: 0 8px 20px rgba(15, 23, 42, 0.10);
+    --shadow-glow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* --- 1. Estilos Generales Básicos --- */
 body {
     font-family: Arial, Helvetica, sans-serif;
