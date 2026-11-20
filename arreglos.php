@@ -78,7 +78,7 @@ $catalogo_equipos = [
 <!-- =======================================================================
      SECCIÓN CONCEPTUAL: FUNDAMENTOS
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Conceptos de Estructuras de Datos en PHP</h3>
         <span class="evidence-badge">Fundamento Teórico</span>
@@ -97,7 +97,7 @@ $catalogo_equipos = [
 <!-- =======================================================================
      EVIDENCIA 8: ARREGLOS INDEXADOS Y ASOCIATIVOS
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 8: Arreglos Indexados y Asociativos</h3>
         <span class="evidence-badge">Evidencia 8</span>
@@ -161,7 +161,7 @@ $catalogo_equipos = [
 <!-- =======================================================================
      EVIDENCIA 9: ARREGLO MULTIDIMENSIONAL CON CONDICIONAL IF/ELSE INTERNO
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 9: Arreglo Multidimensional con Evaluación Condicional</h3>
         <span class="evidence-badge">Evidencia 9</span>

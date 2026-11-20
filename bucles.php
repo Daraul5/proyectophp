@@ -32,7 +32,7 @@ $frameworks_php = [
 <!-- =======================================================================
      SECCIÓN CONCEPTUAL: FUNDAMENTOS
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Conceptos y Comparativa de Bucles en PHP</h3>
         <span class="evidence-badge">Fundamento Teórico</span>
@@ -51,7 +51,7 @@ $frameworks_php = [
 <!-- =======================================================================
      EVIDENCIA 5: BUCLE FOR GENERANDO SALIDA DINÁMICA
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 5: Bucle for (Cálculo y Proyección Numérica)</h3>
         <span class="evidence-badge">Evidencia 5</span>
@@ -108,7 +108,7 @@ for ($i = 1; $i <= 10; $i++) {
 <!-- =======================================================================
      EVIDENCIA 6: BUCLE WHILE RECORRIENDO DATOS REALES
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 6: Bucle while (Control por Índice)</h3>
         <span class="evidence-badge">Evidencia 6</span>
@@ -166,7 +166,7 @@ while ($indice < $limite) {
 <!-- =======================================================================
      EVIDENCIA 7: BUCLE FOREACH GENERANDO ELEMENTOS DINÁMICOS
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 7: Bucle foreach (Iteración de Colección)</h3>
         <span class="evidence-badge">Evidencia 7</span>

@@ -23,7 +23,7 @@ $numero_dia_semana = (int)date('N');
 <!-- =======================================================================
      SECCIÓN CONCEPTUAL: FUNDAMENTOS
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Conceptos de Control de Flujo en PHP</h3>
         <span class="evidence-badge">Fundamento Teórico</span>
@@ -47,7 +47,7 @@ $numero_dia_semana = (int)date('N');
 <!-- =======================================================================
      EVIDENCIA 3: EVALUACIÓN CON IF / ELSEIF / ELSE
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 3: Estructura if / elseif / else en Acción</h3>
         <span class="evidence-badge">Evidencia 3</span>
@@ -123,7 +123,7 @@ if ($calificacion_estudiante >= 95 && $asistencia_porcentaje >= 85) {
 <!-- =======================================================================
      EVIDENCIA 4: EVALUACIÓN CON SWITCH
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 4: Estructura switch en Acción</h3>
         <span class="evidence-badge">Evidencia 4</span>
