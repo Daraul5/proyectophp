@@ -35,7 +35,7 @@ $total_tecnologias = count($tecnologias);
 <!-- =======================================================================
      SECCIÓN CONCEPTUAL: FUNDAMENTOS
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Conceptos Fundamentales sobre Variables en PHP</h3>
         <span class="evidence-badge">Fundamento Teórico</span>
@@ -66,7 +66,7 @@ $total_tecnologias = count($tecnologias);
 <!-- =======================================================================
      EVIDENCIA 1: DECLARACIÓN Y USO DE VARIABLES CON ECHO, DATE() Y COUNT()
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 1: Uso de Variables, date() y count()</h3>
         <span class="evidence-badge">Evidencia 1</span>
@@ -119,7 +119,7 @@ $total_tecnologias = count($tecnologias);
 <!-- =======================================================================
      EVIDENCIA 2: LOS 5 TIPOS DE DATOS OBLIGATORIOS Y SU INSPECCIÓN
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 2: Tipos de Datos Primitivos en PHP</h3>
         <span class="evidence-badge">Evidencia 2</span>

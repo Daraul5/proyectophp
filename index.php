@@ -40,7 +40,7 @@ require_once __DIR__ . '/includes/header.php';
 <?php endif; ?>
 
 <!-- Bloque Conceptual de Inicio -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Arquitectura del Proyecto y Ciclo de Vida del Servidor</h3>
         <span class="evidence-badge">Fundamentos de PHP</span>
