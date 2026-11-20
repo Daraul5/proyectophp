@@ -77,7 +77,7 @@ $total_tecnologias = count($tecnologias);
     </p>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Nombre de Variable</th>
@@ -89,7 +89,7 @@ $total_tecnologias = count($tecnologias);
                 <tr>
                     <td><code>$nombre_materia</code></td>
                     <td><code>echo $nombre_materia;</code></td>
-                    <td><strong><?php echo $nombre_materia; ?></strong></td>
+                    <td><strong class="elias-stat-highlight"><?php echo $nombre_materia; ?></strong></td>
                 </tr>
                 <tr>
                     <td><code>$anio_academico</code></td>
@@ -99,7 +99,7 @@ $total_tecnologias = count($tecnologias);
                 <tr>
                     <td><code>$calificacion_promedio</code></td>
                     <td><code>echo $calificacion_promedio;</code></td>
-                    <td><strong><?php echo $calificacion_promedio; ?></strong> pts</td>
+                    <td><span class="elias-stat-highlight"><?php echo $calificacion_promedio; ?> pts</span></td>
                 </tr>
                 <tr>
                     <td><code>$fecha_servidor</code></td>
@@ -130,7 +130,7 @@ $total_tecnologias = count($tecnologias);
     </p>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Variable</th>

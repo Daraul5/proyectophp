@@ -60,7 +60,7 @@ $hora_actual_formato = date('d/m/Y H:i:s', $timestamp_actual);
     </p>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Parámetro de Auditoría</th>
@@ -87,27 +87,27 @@ $hora_actual_formato = date('d/m/Y H:i:s', $timestamp_actual);
                 <tr>
                     <td><strong>Hora de Inicio Formateada</strong></td>
                     <td><code>date('d/m/Y H:i:s', $timestamp_crudo)</code></td>
-                    <td><strong><?php echo $hora_inicio_formato; ?></strong></td>
+                    <td><span class="elias-stat-highlight"><?php echo $hora_inicio_formato; ?></span></td>
                 </tr>
                 <tr>
                     <td><strong>Hora del Servidor en Esta Petición</strong></td>
                     <td><code>date('d/m/Y H:i:s', time())</code></td>
-                    <td><strong><?php echo $hora_actual_formato; ?></strong></td>
+                    <td><span class="elias-stat-highlight"><?php echo $hora_actual_formato; ?></span></td>
                 </tr>
                 <tr>
                     <td><strong>Diferencia Cruda en Segundos</strong></td>
                     <td><code>time() - $_SESSION['inicio_sesion']</code></td>
-                    <td><strong><?php echo $segundos_diferencia; ?></strong> segundos transcurridos</td>
+                    <td><span class="elias-stat-highlight"><?php echo $segundos_diferencia; ?> s</span> transcurridos</td>
                 </tr>
                 <tr>
                     <td><strong>Fórmula de Minutos</strong></td>
                     <td><code>floor($segundos / 60)</code></td>
-                    <td><strong><?php echo $minutos_calculados; ?></strong> minutos</td>
+                    <td><span class="elias-stat-highlight"><?php echo $minutos_calculados; ?> min</span></td>
                 </tr>
                 <tr>
                     <td><strong>Fórmula de Segundos Restantes</strong></td>
                     <td><code>$segundos % 60</code></td>
-                    <td><strong><?php echo $segundos_restantes; ?></strong> segundos</td>
+                    <td><span class="elias-stat-highlight"><?php echo $segundos_restantes; ?> s</span></td>
                 </tr>
                 <tr>
                     <td><strong>Tiempo Activo Total (Formato Rúbrica)</strong></td>

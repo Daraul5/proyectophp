@@ -111,7 +111,7 @@ $catalogo_equipos = [
             <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 12px;">Recorrido directo con <code>foreach ($servidores_web as $indice => $servidor)</code>:</p>
             
             <div class="table-responsive">
-                <table class="data-table">
+                <table class="data-table data-table-elias-custom">
                     <thead>
                         <tr>
                             <th>Índice Numérico</th>
@@ -136,7 +136,7 @@ $catalogo_equipos = [
             <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 12px;">Recorrido con clave-valor <code>foreach ($ficha_servidor as $clave => $valor)</code>:</p>
             
             <div class="table-responsive">
-                <table class="data-table">
+                <table class="data-table data-table-elias-custom">
                     <thead>
                         <tr>
                             <th>Propiedad (Clave)</th>
@@ -172,7 +172,7 @@ $catalogo_equipos = [
     </p>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Código</th>
@@ -202,7 +202,7 @@ $catalogo_equipos = [
                         <td><code><?php echo $item['codigo']; ?></code></td>
                         <td><strong><?php echo $item['producto']; ?></strong></td>
                         <td><?php echo $item['categoria']; ?></td>
-                        <td>$<?php echo number_format($item['precio'], 2); ?></td>
+                        <td><span class="elias-stat-highlight">$<?php echo number_format($item['precio'], 2); ?></span></td>
                         <td>
                             <?php if ($item['stock'] > 0): ?>
                                 <strong><?php echo $item['stock']; ?></strong> unidades

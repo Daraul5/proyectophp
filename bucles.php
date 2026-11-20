@@ -62,7 +62,7 @@ $frameworks_php = [
     </p>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Iteración ($i)</th>
@@ -85,7 +85,7 @@ $frameworks_php = [
                     echo "<td><strong>Iteración #{$i}</strong></td>";
                     echo "<td><code>{$i} &times; {$factor_base} KB</code></td>";
                     echo "<td>{$memoria_kb} KB</td>";
-                    echo "<td>{$memoria_mb} MB</td>";
+                    echo "<td><span class='elias-stat-highlight'>{$memoria_mb} MB</span></td>";
                     echo "<td><span class='status-badge {$badge}'>{$etiqueta}</span></td>";
                     echo "</tr>";
                 }
@@ -119,7 +119,7 @@ for ($i = 1; $i <= 10; $i++) {
     </p>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Índice ($indice)</th>

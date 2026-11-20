@@ -83,7 +83,7 @@ $numero_dia_semana = (int)date('N');
     ?>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Variable Evaluada</th>
@@ -96,7 +96,7 @@ $numero_dia_semana = (int)date('N');
             <tbody>
                 <tr>
                     <td><code>$calificacion_estudiante</code></td>
-                    <td><?php echo $calificacion_estudiante; ?> pts</td>
+                    <td><span class="elias-stat-highlight"><?php echo $calificacion_estudiante; ?> pts</span></td>
                     <td><code>$calificacion >= 70 && $asistencia >= 80</code></td>
                     <td><span class="status-badge <?php echo $badge_class; ?>"><?php echo $estado_academico; ?></span></td>
                     <td><?php echo $mensaje_diagnostico; ?></td>
@@ -183,7 +183,7 @@ if ($calificacion_estudiante >= 95 && $asistencia_porcentaje >= 85) {
     ?>
 
     <div class="table-responsive">
-        <table class="data-table">
+        <table class="data-table data-table-elias-custom">
             <thead>
                 <tr>
                     <th>Valor Numérico Evaluado</th>
@@ -195,7 +195,7 @@ if ($calificacion_estudiante >= 95 && $asistencia_porcentaje >= 85) {
             <tbody>
                 <tr>
                     <td><code>date('N') => <?php echo $numero_dia_semana; ?></code></td>
-                    <td><strong><?php echo $nombre_dia; ?></strong></td>
+                    <td><strong class="elias-stat-highlight"><?php echo $nombre_dia; ?></strong></td>
                     <td><span class="status-badge <?php echo ($numero_dia_semana >= 6) ? 'status-warning' : 'status-success'; ?>"><?php echo $tipo_jornada; ?></span></td>
                     <td><?php echo $recomendacion_servidor; ?></td>
                 </tr>
