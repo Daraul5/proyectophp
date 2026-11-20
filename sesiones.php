@@ -21,7 +21,7 @@ $hora_actual_formato = date('d/m/Y H:i:s', $timestamp_actual);
 <!-- =======================================================================
      SECCIÓN CONCEPTUAL: FUNDAMENTOS
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Conceptos del Ciclo de Vida de Sesiones en PHP</h3>
         <span class="evidence-badge">Fundamento Teórico</span>
@@ -49,7 +49,7 @@ $hora_actual_formato = date('d/m/Y H:i:s', $timestamp_actual);
 <!-- =======================================================================
      EVIDENCIA 10: INSPECCIÓN TÉCNICA Y AUDITORÍA DE SESIÓN
      ======================================================================= -->
-<section class="card">
+<section class="card card-rebeca-custom">
     <div class="card-header-flex">
         <h3 class="card-title">Evidencia 10: Auditoría de la Sesión en Memoria</h3>
         <span class="evidence-badge">Evidencia 10</span>

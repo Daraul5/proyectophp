@@ -357,7 +357,15 @@ a {
    - Agregar transiciones suaves o estilos visuales para los botones.
    -------------------------------------------------------------------------- */
 .card-rebeca-custom {
-    /* Escribe aquí tus estilos para tu commit */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(239, 246, 255, 0.85));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #93c5fd;
+    border-left: 5px solid var(--accent-purple);
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-smooth), box-shadow var(--transition-smooth), border-color var(--transition-smooth);
 }
 
 /* --------------------------------------------------------------------------
